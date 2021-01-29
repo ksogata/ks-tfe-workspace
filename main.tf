@@ -12,5 +12,6 @@ resource "azurerm_resource_group" "main" {
 
   tags = {
     "environment" = var.environment
+    "owner" = "kevinsogata"
   }
 }
